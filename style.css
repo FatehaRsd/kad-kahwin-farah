@@ -1,0 +1,156 @@
+/* section.hero {
+  background-image: url("photo/kad.png");
+  background-color: rgba(252, 243, 226, 0.7);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fdf4e5;
+} */
+
+section.hero {
+  background-image: url("photo/kad.png");
+  background-color: #fdf4e5;
+  background-repeat: no-repeat;
+  background-size: 600px 100vh; /* 25% width and auto height */
+  background-position: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100vh; */
+}
+
+section.hero .wrapper {
+  /* margin-top: 35px; */
+  padding: 100px 0px;
+  /* width: 75%; */
+  text-align: center;
+  color: #a37435;
+}
+
+.container-undangan {
+  background-color: rgba(252, 243, 226, 0.9);
+  border: 1px solid #f3bf5a;
+  border-radius: 50px;
+  /* border-radius: 50px; */
+  /* margin: 30px 10px; */
+  padding: 20px 40px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.undangan {
+  margin: 30px auto;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-family: "Noto Naskh Arabic", serif;
+  font-weight: 300;
+}
+
+.hari {
+  margin: 30px auto;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: "Noto Naskh Arabic", serif;
+  font-weight: 300;
+}
+
+.bride,
+.groom {
+  margin: auto;
+  text-transform: uppercase;
+  font-size: 44px;
+  /* font-family: "Qwitcher Grypen", cursive; */
+  font-family: "Noto Naskh Arabic", serif;
+  /* font-family: "Noto Sans Arabic", sans-serif; */
+  font-weight: 600;
+  color: #a37435;
+}
+
+.with {
+  margin: auto;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Sacramento", cursive;
+  font-weight: 700;
+  color: #a37435;
+}
+
+.info-majlis .wrapper {
+  background-color: rgba(252, 243, 226, 0.7);
+  margin: auto;
+  padding: 50px;
+  text-align: center;
+}
+
+.ucapan,
+.tarikh,
+.masa,
+.tempat {
+  margin: 20px 0;
+  font-size: 18px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+}
+
+.tuan-rumah,
+.pasangan-pengantin {
+  margin: 40px 0;
+  font-size: 24px;
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+}
+
+.doa .wrapper {
+  background-image: url("photo/kad.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  margin: auto;
+  padding: 50px 0px;
+}
+
+.container-doa {
+  background-color: rgba(252, 243, 226, 0.8);
+  border: 1px solid #f3bf5a;
+  border-radius: 20px;
+  margin: 30px 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+.doa p {
+  text-align: center;
+  margin: 34px;
+  font-size: 18px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
+  background-color: #fdf4e5;
+  border-color: #ecce97;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.fas {
+  color: #a37435;
+  font-size: 24px;
+}
+
+.fas:hover {
+  color: #d5ad73;
+}
+/* @media screen and (min-width: 370px) {
+  .wedding-card {
+    font-size: 16px;
+    line-height: 20px;
+  }
+} */
